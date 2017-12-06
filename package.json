@@ -1,5 +1,5 @@
 {
-  "name": "ts-sass-sample-plugin",
+  "name": "aurelia-typescript-plugin-sample",
   "description": "An Aurelia plugin.",
   "version": "0.1.0",
   "repository": {
