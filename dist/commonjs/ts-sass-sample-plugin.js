@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var aurelia_framework_1 = require("aurelia-framework");
+var hello_world_1 = require("./hello-world");
+exports.HelloWorld = hello_world_1.HelloWorld;
+function configure(config) {
+    config.globalResources([
+        aurelia_framework_1.PLATFORM.moduleName('./hello-world')
+    ]);
+}
+exports.configure = configure;
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRzLXNhc3Mtc2FtcGxlLXBsdWdpbi50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLHVEQUFxRTtBQUVyRSw2Q0FBMkM7QUFBbEMsbUNBQUEsVUFBVSxDQUFBO0FBRW5CLG1CQUEwQixNQUE4QjtJQUN0RCxNQUFNLENBQUMsZUFBZSxDQUFDO1FBQ3JCLDRCQUFRLENBQUMsVUFBVSxDQUFDLGVBQWUsQ0FBQztLQUNyQyxDQUFDLENBQUM7QUFDTCxDQUFDO0FBSkQsOEJBSUMiLCJmaWxlIjoidHMtc2Fzcy1zYW1wbGUtcGx1Z2luLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRnJhbWV3b3JrQ29uZmlndXJhdGlvbiwgUExBVEZPUk0gfSBmcm9tICdhdXJlbGlhLWZyYW1ld29yayc7XG5cbmV4cG9ydCB7IEhlbGxvV29ybGQgfSBmcm9tICcuL2hlbGxvLXdvcmxkJztcblxuZXhwb3J0IGZ1bmN0aW9uIGNvbmZpZ3VyZShjb25maWc6IEZyYW1ld29ya0NvbmZpZ3VyYXRpb24pIHtcbiAgY29uZmlnLmdsb2JhbFJlc291cmNlcyhbXG4gICAgUExBVEZPUk0ubW9kdWxlTmFtZSgnLi9oZWxsby13b3JsZCcpXG4gIF0pO1xufVxuIl0sInNvdXJjZVJvb3QiOiJzcmMifQ==
